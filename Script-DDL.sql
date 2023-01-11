@@ -1,10 +1,3 @@
--- The Interns
--- Felipe Otto da Silva......................89108
--- Pedro Argentati...........................88246
--- Pedro Henrique Castanheira................89199
--- Rafael Tannous............................87486
--- Yasmin Verderame..........................87023
-
 -- DROP TABLE
 DROP TABLE tb_estado CASCADE CONSTRAINTS;
 DROP TABLE tb_cidade CASCADE CONSTRAINTS;

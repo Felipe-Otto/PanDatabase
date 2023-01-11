@@ -1,37 +1,30 @@
--- The Interns
--- Felipe Otto da Silva......................89108
--- Pedro Argentati...........................88246
--- Pedro Henrique Castanheira................89199
--- Rafael Tannous............................87486
--- Yasmin Verderame..........................87023
-
 -- INSERT INTO
 -- TB_ESTADO
 INSERT ALL
-    INTO tb_estado VALUES('SP', 'S„o Paulo')
+    INTO tb_estado VALUES('SP', 'S√£o Paulo')
     INTO tb_estado VALUES('RJ', 'Rio De Janeiro')
     INTO tb_estado VALUES('MG', 'Minas Gerais')
     INTO tb_estado VALUES('RS', 'Rio Grande do Sul')
-    INTO tb_estado VALUES('PR', 'Paran·')
+    INTO tb_estado VALUES('PR', 'Paran√°')
     INTO tb_estado VALUES('SC', 'Santa Catarina')
     INTO tb_estado VALUES('BA', 'Bahia')
     INTO tb_estado VALUES('DF', 'Distrito Federal')
-    INTO tb_estado VALUES('GO', 'Goi·s')
+    INTO tb_estado VALUES('GO', 'Goi√°s')
     INTO tb_estado VALUES('PE', 'Pernambuco')
 SELECT * FROM dual;
 
 -- TB_CIDADE
 INSERT ALL
-    INTO tb_cidade(sg_uf, nm_cidade) VALUES('SP', 'S„o Paulo')
-    INTO tb_cidade(sg_uf, nm_cidade) VALUES('SP', 'Campos do Jord„o')
+    INTO tb_cidade(sg_uf, nm_cidade) VALUES('SP', 'S√£o Paulo')
+    INTO tb_cidade(sg_uf, nm_cidade) VALUES('SP', 'Campos do Jord√£o')
     INTO tb_cidade(sg_uf, nm_cidade) VALUES('SP', 'Campinas')
     INTO tb_cidade(sg_uf, nm_cidade) VALUES('SP', 'Guarulhos')
     INTO tb_cidade(sg_uf, nm_cidade) VALUES('SP', 'Adamantina')
     INTO tb_cidade(sg_uf, nm_cidade) VALUES('RJ', 'Rio de Janeiro')
-    INTO tb_cidade(sg_uf, nm_cidade) VALUES('RJ', 'NiterÛi')
-    INTO tb_cidade(sg_uf, nm_cidade) VALUES('RJ', 'PetrÛpolis')
-    INTO tb_cidade(sg_uf, nm_cidade) VALUES('RJ', 'Nova IguaÁu')
-    INTO tb_cidade(sg_uf, nm_cidade) VALUES('RJ', 'MacaÈ')
+    INTO tb_cidade(sg_uf, nm_cidade) VALUES('RJ', 'Niter√≥i')
+    INTO tb_cidade(sg_uf, nm_cidade) VALUES('RJ', 'Petr√≥polis')
+    INTO tb_cidade(sg_uf, nm_cidade) VALUES('RJ', 'Nova Igua√ßu')
+    INTO tb_cidade(sg_uf, nm_cidade) VALUES('RJ', 'Maca√©')
 SELECT * FROM dual;
 
 -- TB_END_CLIENTE
@@ -87,21 +80,21 @@ INSERT ALL
     INTO tb_cliente(nm_cli, tp_cli, tel_cli, email_cli, cd_end_cli, cd_classificacao) 
     VALUES('Yuri Silveira', 'PF', '(79) 2445-3025', 'angel.stehr80@gmail.com', 6, 4)
     INTO tb_cliente(nm_cli, tp_cli, tel_cli, email_cli, cd_end_cli, cd_classificacao)
-    VALUES('Jo„o Pedro Arag„o', 'PF', '(97) 3177-3316', 'lupe_marquardt@hotmail.com', 7, 1)
+    VALUES('Jo√£o Pedro Arag√£o', 'PF', '(97) 3177-3316', 'lupe_marquardt@hotmail.com', 7, 1)
     INTO tb_cliente(nm_cli, tp_cli, tel_cli, email_cli, cd_end_cli, cd_classificacao)
     VALUES('Davi Luiz Rocha', 'PF', '(69) 2121-3422', 'joan.grant@hotmail.com', 8, 8)
     INTO tb_cliente(nm_cli, tp_cli, tel_cli, email_cli, cd_end_cli, cd_classificacao) 
-    VALUES('AndrÈ GonÁalves', 'PF', '(66) 3603-6322', 'jerrold.kutch@gmail.com', 9, 4)
+    VALUES('Andr√© Gon√ßalves', 'PF', '(66) 3603-6322', 'jerrold.kutch@gmail.com', 9, 4)
     INTO tb_cliente(nm_cli, tp_cli, tel_cli, email_cli, cd_end_cli, cd_classificacao)
     VALUES('Melissa Ramos', 'PF', '(79) 3702-4517', 'kamryn77@yahoo.com', 10, 1)
     INTO tb_cliente(nm_cli, tp_cli, tel_cli, email_cli, cd_end_cli, cd_classificacao)
-    VALUES('HeloÌsa Oliveira', 'PJ', '(68) 3688-6388', 'keven.conn19@gmail.com', 11, 5)
+    VALUES('Helo√≠sa Oliveira', 'PJ', '(68) 3688-6388', 'keven.conn19@gmail.com', 11, 5)
     INTO tb_cliente(nm_cli, tp_cli, tel_cli, email_cli, cd_end_cli, cd_classificacao)
     VALUES('Arthur Jesus', 'PJ', '(33) 3153-5597', 'duncan.wunsch48@gmail.com',12, 2)
     INTO tb_cliente(nm_cli, tp_cli, tel_cli, email_cli, cd_end_cli, cd_classificacao)
     VALUES('Marcela das Neves', 'PJ', '(24) 3435-7882', 'loraine.daugherty@yahoo.com', 13, 7)
     INTO tb_cliente(nm_cli, tp_cli, tel_cli, email_cli, cd_end_cli, cd_classificacao)
-    VALUES('Camila GonÁalves', 'PJ', '(28) 2763-9864', 'ollie.hamill@gmail.com', 14, 1)
+    VALUES('Camila Gon√ßalves', 'PJ', '(28) 2763-9864', 'ollie.hamill@gmail.com', 14, 1)
     INTO tb_cliente(nm_cli, tp_cli, tel_cli, email_cli, cd_end_cli, cd_classificacao) 
     VALUES('Gabriela Farias', 'PJ', '(48) 3344-2088', 'moses_leffler@hotmail.com', 15, 4)
     INTO tb_cliente(nm_cli, tp_cli, tel_cli, email_cli, cd_end_cli, cd_classificacao) 
@@ -109,11 +102,11 @@ INSERT ALL
     INTO tb_cliente(nm_cli, tp_cli, tel_cli, email_cli, cd_end_cli, cd_classificacao)
     VALUES('Joaquim Rocha', 'PJ', '(84) 2254-6795', 'dameon91@yahoo.com', 17, 3)
     INTO tb_cliente(nm_cli, tp_cli, tel_cli, email_cli, cd_end_cli, cd_classificacao)
-    VALUES('Jo„o Guilherme Duarte', 'PJ', '(51) 2651-6795', 'jack.stehr@hotmail.com', 18, 9)
+    VALUES('Jo√£o Guilherme Duarte', 'PJ', '(51) 2651-6795', 'jack.stehr@hotmail.com', 18, 9)
     INTO tb_cliente(nm_cli, tp_cli, tel_cli, email_cli, cd_end_cli, cd_classificacao)
     VALUES('Erick Costa', 'PJ', '(96) 2772-5454', 'roselyn_hessel70@yahoo.com', 19, 5)
     INTO tb_cliente(nm_cli, tp_cli, tel_cli, email_cli, cd_end_cli, cd_classificacao)
-    VALUES('Joaquim da ConceiÁ„o', 'PJ', '(95) 2321-6676', 'piper.bailey26@hotmail.com', 20, 2)
+    VALUES('Joaquim da Concei√ß√£o', 'PJ', '(95) 2321-6676', 'piper.bailey26@hotmail.com', 20, 2)
 SELECT * FROM dual;
 
 -- TB_CLIENTE_PF
@@ -143,39 +136,39 @@ SELECT * FROM dual;
 -- TB_CLIENTE_PJ
 INSERT ALL
     INTO tb_cliente_pj(id_cli, cnpj, razao_social, nm_fantasia, dt_fundacao) 
-    VALUES(11, '50.338.260/0001-40', 'Northside AutomÛveis', 'AutomÛveis Ltda', TO_DATE('08/08/2003','DD/MM/YYYY'))
+    VALUES(11, '50.338.260/0001-40', 'Northside Autom√≥veis', 'Autom√≥veis Ltda', TO_DATE('08/08/2003','DD/MM/YYYY'))
     INTO tb_cliente_pj(id_cli, cnpj, razao_social, nm_fantasia, dt_fundacao) 
     VALUES(12, '60.471.714/0001-00', 'Savant Marcenaria', 'Marcenaria Ltda', TO_DATE('26/04/2010','DD/MM/YYYY'))
     INTO tb_cliente_pj(id_cli, cnpj, razao_social, nm_fantasia, dt_fundacao) 
-    VALUES(13, '66.277.145/0001-42', 'Envoy Cont·bil', 'Cont·bil ME', TO_DATE('02/06/2022','DD/MM/YYYY'))
+    VALUES(13, '66.277.145/0001-42', 'Envoy Cont√°bil', 'Cont√°bil ME', TO_DATE('02/06/2022','DD/MM/YYYY'))
     INTO tb_cliente_pj(id_cli, cnpj, razao_social, nm_fantasia, dt_fundacao) 
     VALUES(14, '58.285.543/0001-82', 'Fotografia Chaves', 'Fotografias ME', TO_DATE('16/05/2021','DD/MM/YYYY'))
     INTO tb_cliente_pj(id_cli, cnpj, razao_social, nm_fantasia, dt_fundacao) 
-    VALUES(15, '64.255.873/0001-28', 'Inside MudanÁas', 'MudanÁas Ltda', TO_DATE('22/11/2007','DD/MM/YYYY'))
+    VALUES(15, '64.255.873/0001-28', 'Inside Mudan√ßas', 'Mudan√ßas Ltda', TO_DATE('22/11/2007','DD/MM/YYYY'))
     INTO tb_cliente_pj(id_cli, cnpj, razao_social, nm_fantasia, dt_fundacao) 
-    VALUES(16, '50.352.441/0001-20', 'Playtime', 'Cont·bil Ltda', TO_DATE('30/04/2008','DD/MM/YYYY'))
+    VALUES(16, '50.352.441/0001-20', 'Playtime', 'Cont√°bil Ltda', TO_DATE('30/04/2008','DD/MM/YYYY'))
     INTO tb_cliente_pj(id_cli, cnpj, razao_social, nm_fantasia, dt_fundacao) 
     VALUES(17, '61.841.833/0001-70', 'Lanchonete Foundry', 'Restaurante Ltda', TO_DATE('08/04/2008','DD/MM/YYYY'))
     INTO tb_cliente_pj(id_cli, cnpj, razao_social, nm_fantasia, dt_fundacao) 
     VALUES(18, '23.548.162/0001-64', 'Groove Lavanderia', 'Lavanderia ME', TO_DATE('20/12/2004','DD/MM/YYYY'))
     INTO tb_cliente_pj(id_cli, cnpj, razao_social, nm_fantasia, dt_fundacao) 
-    VALUES(19, '22.107.317/0001-64', 'Checkpoint JÛias', 'Joalheria Manu', TO_DATE('20/01/2017','DD/MM/YYYY'))
+    VALUES(19, '22.107.317/0001-64', 'Checkpoint J√≥ias', 'Joalheria Manu', TO_DATE('20/01/2017','DD/MM/YYYY'))
     INTO tb_cliente_pj(id_cli, cnpj, razao_social, nm_fantasia, dt_fundacao) 
-    VALUES(20, '13.152.277/0001-81', 'Einstein Inform·tica', 'Inform·tica ME', TO_DATE('07/11/2018','DD/MM/YYYY'))
+    VALUES(20, '13.152.277/0001-81', 'Einstein Inform√°tica', 'Inform√°tica ME', TO_DATE('07/11/2018','DD/MM/YYYY'))
 SELECT * FROM dual;
 
 -- TB_TP_CONTA
 INSERT ALL
-    INTO tb_tp_conta(nm_tp_conta) VALUES('Conta DepÛsito')
+    INTO tb_tp_conta(nm_tp_conta) VALUES('Conta Dep√≥sito')
     INTO tb_tp_conta(nm_tp_conta) VALUES('Conta Pagamento')
     INTO tb_tp_conta(nm_tp_conta) VALUES('Conta Corrente')
-    INTO tb_tp_conta(nm_tp_conta) VALUES('Conta PoupanÁa')
-    INTO tb_tp_conta(nm_tp_conta) VALUES('Conta Sal·rio')
-    INTO tb_tp_conta(nm_tp_conta) VALUES('Conta Universit·ria')
+    INTO tb_tp_conta(nm_tp_conta) VALUES('Conta Poupan√ßa')
+    INTO tb_tp_conta(nm_tp_conta) VALUES('Conta Sal√°rio')
+    INTO tb_tp_conta(nm_tp_conta) VALUES('Conta Universit√°ria')
     INTO tb_tp_conta(nm_tp_conta) VALUES('Conta Investimento')
     INTO tb_tp_conta(nm_tp_conta) VALUES('Conta Digital')
     INTO tb_tp_conta(nm_tp_conta) VALUES('Conta Conjunta')
-    INTO tb_tp_conta(nm_tp_conta) VALUES('Conta Empres·rial')
+    INTO tb_tp_conta(nm_tp_conta) VALUES('Conta Empres√°rial')
 SELECT * FROM dual;
 
 -- TB_CONTA
@@ -269,7 +262,7 @@ SELECT * FROM dual;
 
 -- TB_TP_OP_AUTONOMA
 INSERT ALL
-    INTO tb_tp_op_autonoma(nm_tp_op_autonoma) VALUES('TransaÁ„o')
+    INTO tb_tp_op_autonoma(nm_tp_op_autonoma) VALUES('Transa√ß√£o')
     INTO tb_tp_op_autonoma(nm_tp_op_autonoma) VALUES('Deposito')
     INTO tb_tp_op_autonoma(nm_tp_op_autonoma) VALUES('Pix')
     INTO tb_tp_op_autonoma(nm_tp_op_autonoma) VALUES('Compra Debito')
@@ -297,16 +290,16 @@ SELECT * FROM dual;
 
 -- TB_TP_OP_SUPERVISIONADA
 INSERT ALL
-    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('EmprÈstimo NÌvel 1')
-    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('EmprÈstimo NÌvel 2')
-    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('EmprÈstimo NÌvel 3')
-    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('EmprÈstimo NÌvel 4')
-    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('EmprÈstimo NÌvel 5')
-    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('EmprÈstimo NÌvel 6')
-    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('EmprÈstimo NÌvel 7')
-    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('EmprÈstimo NÌvel 8')
-    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('EmprÈstimo NÌvel 9')
-    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('EmprÈstimo NÌvel 10')
+    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('Empr√©stimo N√≠vel 1')
+    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('Empr√©stimo N√≠vel 2')
+    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('Empr√©stimo N√≠vel 3')
+    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('Empr√©stimo N√≠vel 4')
+    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('Empr√©stimo N√≠vel 5')
+    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('Empr√©stimo N√≠vel 6')
+    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('Empr√©stimo N√≠vel 7')
+    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('Empr√©stimo N√≠vel 8')
+    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('Empr√©stimo N√≠vel 9')
+    INTO tb_tp_op_supervisionada(nm_tp_op_supervisionada) VALUES ('Empr√©stimo N√≠vel 10')
 SELECT * FROM dual;
 
 --TB_END_EMPREGADO
@@ -336,12 +329,12 @@ SELECT * FROM dual;
 --TB_END_AGENCIA
 INSERT ALL 
     INTO tb_end_agencia(sg_uf, cd_cidade, cep_end_ag, nr_end_ag, comp_end_ag) VALUES ('SP', 1, '12423-060', 381, NULL)
-    INTO tb_end_agencia(sg_uf, cd_cidade, cep_end_ag, nr_end_ag, comp_end_ag) VALUES ('SP', 2, '17035-730', 259, '4∞ Andar')
+    INTO tb_end_agencia(sg_uf, cd_cidade, cep_end_ag, nr_end_ag, comp_end_ag) VALUES ('SP', 2, '17035-730', 259, '4¬∞ Andar')
     INTO tb_end_agencia(sg_uf, cd_cidade, cep_end_ag, nr_end_ag, comp_end_ag) VALUES ('SP', 3, '13084-790', 653 , NULL)
-    INTO tb_end_agencia(sg_uf, cd_cidade, cep_end_ag, nr_end_ag, comp_end_ag) VALUES ('SP', 4, '14811-135', 2505, '16∞ Andar')
+    INTO tb_end_agencia(sg_uf, cd_cidade, cep_end_ag, nr_end_ag, comp_end_ag) VALUES ('SP', 4, '14811-135', 2505, '16¬∞ Andar')
     INTO tb_end_agencia(sg_uf, cd_cidade, cep_end_ag, nr_end_ag, comp_end_ag) VALUES ('SP', 5, '13087-300', 373, NULL)
     INTO tb_end_agencia(sg_uf, cd_cidade, cep_end_ag, nr_end_ag, comp_end_ag) VALUES ('RJ', 6, '17016-380', 880, NULL)
-    INTO tb_end_agencia(sg_uf, cd_cidade, cep_end_ag, nr_end_ag, comp_end_ag) VALUES ('RJ', 7, '14409-242', 983, '15∞ Andar')
+    INTO tb_end_agencia(sg_uf, cd_cidade, cep_end_ag, nr_end_ag, comp_end_ag) VALUES ('RJ', 7, '14409-242', 983, '15¬∞ Andar')
     INTO tb_end_agencia(sg_uf, cd_cidade, cep_end_ag, nr_end_ag, comp_end_ag) VALUES ('RJ', 8, '02759-020', 639, NULL)
     INTO tb_end_agencia(sg_uf, cd_cidade, cep_end_ag, nr_end_ag, comp_end_ag) VALUES ('RJ', 9, '11462-595', 44, NULL)
     INTO tb_end_agencia(sg_uf, cd_cidade, cep_end_ag, nr_end_ag, comp_end_ag) VALUES ('RJ', 10, '14085-569', 381, NULL)
@@ -353,12 +346,12 @@ INSERT ALL
     INTO tb_cargo_empregado(nm_cargo) VALUES ('Caixa')
     INTO tb_cargo_empregado(nm_cargo) VALUES ('Atendente comercial')
     INTO tb_cargo_empregado(nm_cargo) VALUES ('Agente comercial')
-    INTO tb_cargo_empregado(nm_cargo) VALUES ('Assistente da gerÍncia')
-    INTO tb_cargo_empregado(nm_cargo) VALUES ('Estagi·rio')
+    INTO tb_cargo_empregado(nm_cargo) VALUES ('Assistente da ger√™ncia')
+    INTO tb_cargo_empregado(nm_cargo) VALUES ('Estagi√°rio')
     INTO tb_cargo_empregado(nm_cargo) VALUES ('Limpeza')
-    INTO tb_cargo_empregado(nm_cargo) VALUES ('Inform·tica')
-    INTO tb_cargo_empregado(nm_cargo) VALUES ('SeguranÁa')
-    INTO tb_cargo_empregado(nm_cargo) VALUES ('ManutenÁ„o')
+    INTO tb_cargo_empregado(nm_cargo) VALUES ('Inform√°tica')
+    INTO tb_cargo_empregado(nm_cargo) VALUES ('Seguran√ßa')
+    INTO tb_cargo_empregado(nm_cargo) VALUES ('Manuten√ß√£o')
 SELECT * FROM dual;
 
 -- TB_AGENCIA
@@ -392,7 +385,7 @@ SELECT * FROM dual;
 -- TB_EMPREGADO
 INSERT ALL 
     INTO tb_empregado(nm_emp, cd_cargo, cd_ag, cpf_emp, rg_emp, dt_nscmt_emp, sexo_emp, salario_emp, email_emp, cd_end_emp) 
-    VALUES('Ot·vio Moura', 1, 2, '617.385.186-55', '26.409.433-5', TO_DATE('26/12/2008','DD/MM/YYYY'), 'M', 8750, 'jonathon51@gmail.com', 1)
+    VALUES('Ot√°vio Moura', 1, 2, '617.385.186-55', '26.409.433-5', TO_DATE('26/12/2008','DD/MM/YYYY'), 'M', 8750, 'jonathon51@gmail.com', 1)
     INTO tb_empregado(nm_emp, cd_cargo, cd_ag, cpf_emp, rg_emp, dt_nscmt_emp, sexo_emp, salario_emp, email_emp, cd_end_emp) 
     VALUES('Catarina Cardoso', 1, 8, '617.326.466-86', '17.674.016-8', TO_DATE('25/09/2014','DD/MM/YYYY'), 'F', 8750, 'miles_padberg88@hotmail.com', 2)
     INTO tb_empregado(nm_emp, cd_cargo, cd_ag, cpf_emp, rg_emp, dt_nscmt_emp, sexo_emp, salario_emp, email_emp, cd_end_emp) 
@@ -400,7 +393,7 @@ INSERT ALL
     INTO tb_empregado(nm_emp, cd_cargo, cd_ag, cpf_emp, rg_emp, dt_nscmt_emp, sexo_emp, salario_emp, email_emp, cd_end_emp) 
     VALUES('Maria Clara da Cunha', 1, 10, '818.183.393-74', '26.918.386-3', TO_DATE('16/08/2007','DD/MM/YYYY'), 'F', 8750, 'virginia71@yahoo.com', 4)
     INTO tb_empregado(nm_emp, cd_cargo, cd_ag, cpf_emp, rg_emp, dt_nscmt_emp, sexo_emp, salario_emp, email_emp, cd_end_emp) 
-    VALUES('Ana J˙lia das Neves', 1, 6, '388.818.993-45', '33.638.571-7', TO_DATE('07/08/2008','DD/MM/YYYY'), 'F', 8750, 'brandt.wiegand@yahoo.com', 5)
+    VALUES('Ana J√∫lia das Neves', 1, 6, '388.818.993-45', '33.638.571-7', TO_DATE('07/08/2008','DD/MM/YYYY'), 'F', 8750, 'brandt.wiegand@yahoo.com', 5)
     INTO tb_empregado(nm_emp, cd_cargo, cd_ag, cpf_emp, rg_emp, dt_nscmt_emp, sexo_emp, salario_emp, email_emp, cd_end_emp) 
     VALUES('Isabel Farias', 1, 7, '668.757.266-02', '39.781.788-3', TO_DATE('04/03/2020','DD/MM/YYYY'), 'F', 8750, 'yasmine.daugherty@yahoo.com', 6)
     INTO tb_empregado(nm_emp, cd_cargo, cd_ag, cpf_emp, rg_emp, dt_nscmt_emp, sexo_emp, salario_emp, email_emp, cd_end_emp) 
@@ -410,15 +403,15 @@ INSERT ALL
     INTO tb_empregado(nm_emp, cd_cargo, cd_ag, cpf_emp, rg_emp, dt_nscmt_emp, sexo_emp, salario_emp, email_emp, cd_end_emp) 
     VALUES('Enzo Sales', 1, 2, '258.733.208-70', '40.327.022-6', TO_DATE('26/07/2008','DD/MM/YYYY'), 'M', 8750, 'jade99@yahoo.com', 9)
     INTO tb_empregado(nm_emp, cd_cargo, cd_ag, cpf_emp, rg_emp, dt_nscmt_emp, sexo_emp, salario_emp, email_emp, cd_end_emp) 
-    VALUES('Larissa FogaÁa', 1, 5, '375.923.566-27', '30.884.366-3', TO_DATE('27/10/2006','DD/MM/YYYY'), 'F', 8750, 'jarred.boyle@yahoo.com', 10)
+    VALUES('Larissa Foga√ßa', 1, 5, '375.923.566-27', '30.884.366-3', TO_DATE('27/10/2006','DD/MM/YYYY'), 'F', 8750, 'jarred.boyle@yahoo.com', 10)
     INTO tb_empregado(nm_emp, cd_cargo, cd_ag, cpf_emp, rg_emp, dt_nscmt_emp, sexo_emp, salario_emp, email_emp, cd_end_emp) 
-    VALUES('Miguel FogaÁa', 8, 8, '660.673.657-90', '47.046.374-0', TO_DATE('27/05/2017','DD/MM/YYYY'), 'M', 12500, 'rashawn.grant@yahoo.com', 11)
+    VALUES('Miguel Foga√ßa', 8, 8, '660.673.657-90', '47.046.374-0', TO_DATE('27/05/2017','DD/MM/YYYY'), 'M', 12500, 'rashawn.grant@yahoo.com', 11)
     INTO tb_empregado(nm_emp, cd_cargo, cd_ag, cpf_emp, rg_emp, dt_nscmt_emp, sexo_emp, salario_emp, email_emp, cd_end_emp) 
     VALUES('Gabrielly Cavalcanti', 3, 5, '427.263.276-05', '16.475.083-6', TO_DATE('12/05/2022','DD/MM/YYYY'), 'F', 5000, 'francesca39@hotmail.com', 12)
     INTO tb_empregado(nm_emp, cd_cargo, cd_ag, cpf_emp, rg_emp, dt_nscmt_emp, sexo_emp, salario_emp, email_emp, cd_end_emp) 
     VALUES('Manuela Nunes', 6, 6, '055.653.056-08', '37.798.984-8', TO_DATE('24/06/2008','DD/MM/YYYY'), 'F', 1200, 'laverne.king32@gmail.com', 13)
     INTO tb_empregado(nm_emp, cd_cargo, cd_ag, cpf_emp, rg_emp, dt_nscmt_emp, sexo_emp, salario_emp, email_emp, cd_end_emp) 
-    VALUES('BenÌcio Castro', 7, 1, '376.154.677-72', '31.186.690-6', TO_DATE('22/03/2011','DD/MM/YYYY'), 'M', 2750, 'aileen_beahan21@yahoo.com', 14)
+    VALUES('Ben√≠cio Castro', 7, 1, '376.154.677-72', '31.186.690-6', TO_DATE('22/03/2011','DD/MM/YYYY'), 'M', 2750, 'aileen_beahan21@yahoo.com', 14)
     INTO tb_empregado(nm_emp, cd_cargo, cd_ag, cpf_emp, rg_emp, dt_nscmt_emp, sexo_emp, salario_emp, email_emp, cd_end_emp) 
     VALUES('Elisa Nascimento', 3, 9, '955.949.445-75', '14.868.622-9', TO_DATE('24/09/2010','DD/MM/YYYY'), 'F', 3500, 'hosea_aufderhar@gmail.com', 15)
     INTO tb_empregado(nm_emp, cd_cargo, cd_ag, cpf_emp, rg_emp, dt_nscmt_emp, sexo_emp, salario_emp, email_emp, cd_end_emp) 
